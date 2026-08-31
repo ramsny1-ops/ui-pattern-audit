@@ -1,0 +1,11 @@
+{
+  "name": "broken-ui-demo",
+  "dependencies": {
+    "react": "latest",
+    "tailwindcss": "latest",
+    "framer-motion": "latest",
+    "gsap": "latest",
+    "lucide-react": "latest",
+    "react-icons": "latest"
+  }
+}

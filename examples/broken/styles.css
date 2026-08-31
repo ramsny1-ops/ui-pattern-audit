@@ -1,0 +1,8 @@
+body { font-family: Inter, sans-serif; }
+.card { animation: breathe 2s ease-in-out infinite; transition: width 500ms, box-shadow 500ms; }
+.panel { width: 900px; outline: none; }
+.modal { z-index: 999; }
+.tooltip { z-index: 9999; }
+.toast { z-index: 99999; }
+.chat { z-index: 2147483647; }
+@keyframes breathe { from { filter: blur(0); } to { filter: blur(4px); } }

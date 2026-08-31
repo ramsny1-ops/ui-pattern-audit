@@ -1,0 +1,6 @@
+{
+  "name": "clean-ui-demo",
+  "dependencies": {
+    "react": "latest"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "ui-pattern-audit-pro",
+  "version": "2.0.0",
+  "description": "Framework-aware frontend anti-pattern, accessibility, performance, maintainability and UX audit CLI.",
+  "type": "module",
+  "bin": {
+    "ui-audit": "./bin/cli.mjs"
+  },
+  "scripts": {
+    "start": "node ./bin/cli.mjs scan .",
+    "scan": "node ./bin/cli.mjs scan .",
+    "rules": "node ./bin/cli.mjs rules",
+    "test": "node --test",
+    "demo:bad": "node ./bin/cli.mjs scan ./examples/broken --format terminal",
+    "demo:clean": "node ./bin/cli.mjs scan ./examples/clean --format terminal",
+    "report": "node ./bin/cli.mjs scan ./examples/broken --format html --out ./ui-audit-report.html",
+    "doctor": "node ./bin/cli.mjs doctor"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "frontend",
+    "ui",
+    "ux",
+    "accessibility",
+    "lint",
+    "audit",
+    "react",
+    "tailwind",
+    "performance"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,13 @@
+{
+  "extends": "recommended",
+  "ignore": ["public/vendor"],
+  "rules": {
+    "visual.gradient-text": "off",
+    "maintainability.console-log": "warn",
+    "react.random-key": "critical"
+  },
+  "thresholds": {
+    "maxHigh": 0,
+    "maxCritical": 0
+  }
+}

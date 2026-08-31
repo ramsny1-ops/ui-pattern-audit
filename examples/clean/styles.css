@@ -1,0 +1,6 @@
+:root { --surface: #ffffff; --border: #dfe3e8; }
+.page-shell { width: min(100% - 2rem, 70rem); margin-inline: auto; }
+button:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto; }
+}
